@@ -1,1 +1,5 @@
-print("I am building my foundation in Python and AI engineering")
+voltage = float(input("Enter the voltage value: "))
+if voltage <= 20 and voltage >= 10:
+    print("Safe operating conditions")
+else:
+    print("unsafe operating conditions")
